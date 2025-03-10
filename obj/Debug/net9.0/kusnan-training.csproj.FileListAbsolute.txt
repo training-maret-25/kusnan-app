@@ -1,0 +1,14 @@
+C:\conen\kuliah\magang\maret\kusnan-training\bin\Debug\net9.0\kusnan-training.exe
+C:\conen\kuliah\magang\maret\kusnan-training\bin\Debug\net9.0\kusnan-training.deps.json
+C:\conen\kuliah\magang\maret\kusnan-training\bin\Debug\net9.0\kusnan-training.runtimeconfig.json
+C:\conen\kuliah\magang\maret\kusnan-training\bin\Debug\net9.0\kusnan-training.dll
+C:\conen\kuliah\magang\maret\kusnan-training\bin\Debug\net9.0\kusnan-training.pdb
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.GeneratedMSBuildEditorConfig.editorconfig
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.AssemblyInfoInputs.cache
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.AssemblyInfo.cs
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.csproj.CoreCompileInputs.cache
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.dll
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\refint\kusnan-training.dll
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.pdb
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.genruntimeconfig.cache
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\ref\kusnan-training.dll
