@@ -14,20 +14,25 @@
 using System;
 using System.Collections.Generic;
 
-class Soal1
-{
-    static List<int> GenerateFibonacci(int n) {
-        List<int> fibList = new List<int> { 0, 1 }; 
-
-        for (int i = 2; i < n; i++) {
-            fibList.Add(fibList[i - 1] + fibList[i - 2]);
-        }
-
-        return fibList.GetRange(0, n); 
+class Soal1 {
+    static void Main() {
+        int n = 6;
+        CetakFibonacci(n);
     }
 
-    // static void Main() {
-    //     int n = 6; 
-    //     Console.WriteLine(string.Join(", ", GenerateFibonacci(n))); 
-    // }
+    static void CetakFibonacci(int n) {
+        int angka1 = 0, angka2 = 1;
+
+        for (int i = 0; i < n; i++) {
+            if (i == n - 1) {
+                Console.Write(angka1);
+            } else {
+                Console.Write(angka1 + ", "); 
+            }
+            
+            int next = angka1 + angka2;
+            angka1 = angka2;
+            angka2 = next;
+        }
+    }
 }

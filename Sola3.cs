@@ -9,7 +9,20 @@
 */
 
 using System;
+using System.Linq;
 
 class Soal3 {
-    
+    static void Main() {
+        Console.WriteLine(CharUnik("helo")); 
+    }
+
+    // pake HashSet
+    static int CharUnik(string input) {
+        return new HashSet<char>(input).Count;
+    }
+
+    // pake Distinct
+    // static int CharUnik(string input) {
+    //     return input.Distinct().Count();
+    // }
 }

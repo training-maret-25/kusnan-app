@@ -12,3 +12,4 @@ C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\refint\kusnan-trai
 C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.pdb
 C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.genruntimeconfig.cache
 C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\ref\kusnan-training.dll
+C:\conen\kuliah\magang\maret\kusnan-training\obj\Debug\net9.0\kusnan-training.sourcelink.json

@@ -11,7 +11,11 @@
 using System;
 
 class Soal2 {
-    static bool IsPalindrome(string kata) {
+    static void Main() {
+        Console.WriteLine(KataSama("Radar"));
+    }
+
+    static bool KataSama(string kata) {
         kata = kata.ToLower();
         char[] charArray = kata.ToCharArray();
         Array.Reverse(charArray); 
@@ -19,9 +23,4 @@ class Soal2 {
         
         return kata == reversedkata;
     }
-
-    // static void Main() {
-    //     Console.WriteLine(IsPalindrome("Radar"));
-    //     Console.WriteLine(IsPalindrome("Rudar"));
-    // }
 }

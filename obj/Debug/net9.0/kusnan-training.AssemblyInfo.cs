@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kusnan-training")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03cf5115684062a6a5ab5bc839a065aa50ab68ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("kusnan-training")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kusnan-training")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
