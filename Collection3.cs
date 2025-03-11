@@ -23,22 +23,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-class Pegawai {
+class Collection3 {
     public string Name { get; set; } = "";
     public int Tahun { get; set; }
 }
 
-class Program {
-    static void Main() {
-        List<Pegawai> pegawai = new List<Pegawai> {
-            new Pegawai { Name = "Adit", Tahun = 5 },
-            new Pegawai { Name = "Bella", Tahun = 7 },
-            new Pegawai { Name = "Cindy", Tahun = 3 },
-            new Pegawai { Name = "Dian", Tahun = 10 }
-        };
+// class Program {
+//     static void Main() {
+//         List<Collection3> pegawai = new List<Collection3> {
+//             new Collection3 { Name = "Adit", Tahun = 5 },
+//             new Collection3 { Name = "Bella", Tahun = 7 },
+//             new Collection3 { Name = "Cindy", Tahun = 3 },
+//             new Collection3 { Name = "Dian", Tahun = 10 }
+//         };
 
-        Pegawai? pgwTerlama = pegawai.MaxBy(pgw => pgw.Tahun); 
+//         Collection3? pgwTerlama = pegawai.MaxBy(pgw => pgw.Tahun); 
 
-        Console.WriteLine($"Pegawai dengan masa kerja terlama: {pgwTerlama?.Name} - {pgwTerlama?.Tahun} tahun");
-    }
-}
+//         Console.WriteLine($"Pegawai dengan masa kerja terlama: {pgwTerlama?.Name} - {pgwTerlama?.Tahun} tahun");
+//     }
+// }

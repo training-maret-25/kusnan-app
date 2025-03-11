@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
-
-/*
+﻿/*
     1️⃣ Kasus: Deret Fibonacci 📈 (Easy-Medium)
 
     Deskripsi:
@@ -14,11 +11,11 @@
 using System;
 using System.Collections.Generic;
 
-class Soal1 {
-    static void Main() {
-        int n = 6;
-        CetakFibonacci(n);
-    }
+class Basic1 {
+    // static void Main() {
+    //     int n = 6;
+    //     CetakFibonacci(n);
+    // }
 
     static void CetakFibonacci(int n) {
         int angka1 = 0, angka2 = 1;

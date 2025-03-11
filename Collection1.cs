@@ -22,21 +22,21 @@
 using System;
 using System.Linq;
 
-class Produk {
+class Collection1 {
     public string Name { get; set; } = ""; 
     public double Price { get; set; }
 }
 
-class Program {
-    static void Main() {
-        Produk[] daftarProduk = new[] {
-            new Produk { Name = "Tablet", Price = 4000000 },
-            new Produk { Name = "Smartphone", Price = 3000000 },
-            new Produk { Name = "Smartwatch", Price = 1500000 },
-            new Produk { Name = "Laptop", Price = 10000000 }
-        };
+// class Program {
+//     static void Main() {
+//         Collection1[] daftarProduk = new[] {
+//             new Collection1 { Name = "Tablet", Price = 4000000 },
+//             new Collection1 { Name = "Smartphone", Price = 3000000 },
+//             new Collection1 { Name = "Smartwatch", Price = 1500000 },
+//             new Collection1 { Name = "Laptop", Price = 10000000 }
+//         };
 
-        Produk? termurah = daftarProduk.MinBy(b => b.Price); 
-        Console.WriteLine($"Produk termurah adalah {termurah?.Name} - Rp. {termurah?.Price:N0}");
-    }
-}
+//         Collection1? termurah = daftarProduk.MinBy(b => b.Price); 
+//         Console.WriteLine($"Produk termurah adalah {termurah?.Name} - Rp. {termurah?.Price:N0}");
+//     }
+// }

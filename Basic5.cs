@@ -11,11 +11,11 @@
 
 using System;
 
-class Soal5 {
-    static void Main() {
-        int uang = 15000000;
-        Console.WriteLine(FormatRupiah(uang));
-    }
+class Basic5 {
+    // static void Main() {
+    //     int uang = 15000000;
+    //     Console.WriteLine(FormatRupiah(uang));
+    // }
 
     static string FormatRupiah(int uang) {
         return $"Hasil Format {uang} menjadi Rp. {uang:N0}";
