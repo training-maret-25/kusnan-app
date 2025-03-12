@@ -12,10 +12,10 @@ using System;
 using System.Collections.Generic;
 
 class Basic1 {
-    // static void Main() {
-    //     int n = 6;
-    //     CetakFibonacci(n);
-    // }
+    static void Main() {
+        int n = 6;
+        CetakFibonacci(n);
+    }
 
     static void CetakFibonacci(int n) {
         int angka1 = 0, angka2 = 1;

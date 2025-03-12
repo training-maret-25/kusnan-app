@@ -26,9 +26,6 @@ class Handling1 {
             string logMessage = $"[{DateTime.Now}] ERROR: {ex.Message}\nStackTrace: {ex.StackTrace}\n";
             File.AppendAllText(logFile, logMessage);
             Console.WriteLine($"Error tidak terduga: {ex.Message}");
-        } 
-        finally {
-            Console.WriteLine("Proses selesai.\n");
         }
     }
 }

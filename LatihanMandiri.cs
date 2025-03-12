@@ -24,6 +24,20 @@ using System.Linq;
 //     }
 // }
 
+// class LatihanMandiri {
+//     static void Main() {
+//         List<int> angka = new List<int>();
+//         List<string> huruf = new List<string> {"adi", "uda", "ida"};
+
+//         angka.AddRange(9, 11, 20, 71, 91);
+
+//         int hasil = angka.Sum();
+
+//         Console.WriteLine($"Jumlah Semua Angka {hasil}");
+//         Console.WriteLine($"Isi List: " + string.Join(", ", huruf));
+//     }
+// }
+
 /* D I C T I O N A R Y */
 // class LatihanMandiri {
 //     static void Main()
@@ -62,16 +76,32 @@ using System.Linq;
 //     }
 // }
 
+/* E R R O R   H A N D L I N G*/
 // class LatihanMandiri {
 //     static void Main() {
-//         List<int> angka = new List<int>();
-//         List<string> huruf = new List<string> {"adi", "uda", "ida"};
+//         string filepath = "example.txt";
+//         string logFile = "error.log";
 
-//         angka.AddRange(9, 11, 20, 71, 91);
-
-//         int hasil = angka.Sum();
-
-//         Console.WriteLine($"Jumlah Semua Angka {hasil}");
-//         Console.WriteLine($"Isi List: " + string.Join(", ", huruf));
+//         try {
+//             using (StreamWriter writer = new StreamWriter(filepath)) {
+//                 writer.WriteLine($"{DateTime.Now}: Example Data Pnting!!!");
+//             }
+//             Console.WriteLine("Example Data Berhasil Di simpan");
+//         }
+//         catch (UnauthorizedAccessException ex) {
+//             string logMessage = $"[{DateTime.Now}] ERROR: {ex.Message}\nStackTrace: {ex.StackTrace}\n";
+//             File.AppendAllText(logFile, logMessage);
+//             Console.WriteLine("Error, Tidak memiliki izin menulis");
+//         }
+//         catch (IOException ex) {
+//             string logMessage = $"[{DateTime.Now}] ERROR: {ex.Message}\nStackTrace: {ex.StackTrace}\n";
+//             File.AppendAllText(logFile, logMessage);
+//             Console.WriteLine($"Error, I/O: {ex.Message}");
+//         }
+//         catch (Exception ex) {
+//             string logMessage = $"[{DateTime.Now}] ERROR: {ex.Message}\nStackTrace: {ex.StackTrace}\n";
+//             File.AppendAllText(logFile, logMessage);
+//             Console.WriteLine("Error, Terjadi Kesalahan tak terduga");
+//         }
 //     }
 // }

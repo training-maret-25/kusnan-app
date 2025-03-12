@@ -22,10 +22,10 @@ using System.Collections.Generic;
 using System.Linq;
 
 class CollectReview3 {
-    // static void Main() {
-    //     List<int> sales = new List<int> { 100, 200, 150, 300, 250 };
-    //     int totalSales = sales.Sum();
+    static void Main() {
+        List<int> sales = new List<int> { 100, 200, 150, 300, 250 };
+        int totalSales = sales.Sum();
         
-    //     Console.WriteLine($"Total Penjualan: {totalSales}");
-    // }
+        Console.WriteLine($"Total Penjualan: {totalSales}");
+    }
 }

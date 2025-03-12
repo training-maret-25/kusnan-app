@@ -28,17 +28,17 @@ class Collection3 {
     public int Tahun { get; set; }
 }
 
-// class Program {
-//     static void Main() {
-//         List<Collection3> pegawai = new List<Collection3> {
-//             new Collection3 { Name = "Adit", Tahun = 5 },
-//             new Collection3 { Name = "Bella", Tahun = 7 },
-//             new Collection3 { Name = "Cindy", Tahun = 3 },
-//             new Collection3 { Name = "Dian", Tahun = 10 }
-//         };
+class Program {
+    static void Main() {
+        List<Collection3> pegawai = new List<Collection3> {
+            new Collection3 { Name = "Adit", Tahun = 5 },
+            new Collection3 { Name = "Bella", Tahun = 7 },
+            new Collection3 { Name = "Cindy", Tahun = 3 },
+            new Collection3 { Name = "Dian", Tahun = 10 }
+        };
 
-//         Collection3? pgwTerlama = pegawai.MaxBy(pgw => pgw.Tahun); 
+        Collection3? pgwTerlama = pegawai.MaxBy(pgw => pgw.Tahun); 
 
-//         Console.WriteLine($"Pegawai dengan masa kerja terlama: {pgwTerlama?.Name} - {pgwTerlama?.Tahun} tahun");
-//     }
-// }
+        Console.WriteLine($"Pegawai dengan masa kerja terlama: {pgwTerlama?.Name} - {pgwTerlama?.Tahun} tahun");
+    }
+}

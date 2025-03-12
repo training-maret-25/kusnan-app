@@ -33,18 +33,18 @@ class CollectReview1 {
     public required string Name { get; set; } = "";
 }
 
-// class Program {
-//     static void Main() {
-//         Dictionary<int, CollectReview1> employees = new Dictionary<int, CollectReview1> {
-//             { 1, new CollectReview1 { Id = 1, Name = "Andi" } },
-//             { 2, new CollectReview1 { Id = 2, Name = "Budi" } },
-//             { 3, new CollectReview1 { Id = 3, Name = "Cindy" } }
-//         };
+class Program {
+    static void Main() {
+        Dictionary<int, CollectReview1> employees = new Dictionary<int, CollectReview1> {
+            { 1, new CollectReview1 { Id = 1, Name = "Andi" } },
+            { 2, new CollectReview1 { Id = 2, Name = "Budi" } },
+            { 3, new CollectReview1 { Id = 3, Name = "Cindy" } }
+        };
 
-//         if (employees.TryGetValue(2, out CollectReview1? emp)) {
-//             Console.WriteLine(emp.Name);
-//         } else {
-//             Console.WriteLine("Pegawai tidak ditemukan.");
-//         }
-//     }
-// }
+        if (employees.TryGetValue(2, out CollectReview1? emp)) {
+            Console.WriteLine(emp.Name);
+        } else {
+            Console.WriteLine("Pegawai tidak ditemukan.");
+        }
+    }
+}

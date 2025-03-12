@@ -12,10 +12,10 @@
 using System;
 
 class BasicReview2 {
-    // static void Main() {
-    //     int angka1 = 10;
-    //     int angka2 = 20;
-    //     int total = angka1 + angka2;
-    //     Console.WriteLine(total);
-    // }
+    static void Main() {
+        int angka1 = 10;
+        int angka2 = 20;
+        int total = angka1 + angka2;
+        Console.WriteLine(total);
+    }
 }

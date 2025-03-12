@@ -19,9 +19,9 @@ using System.Collections.Generic;
 using System.Linq;
 
 class CollectReview4 {
-    // static void Main() {
-    //     List<string> names = new List<string> { "Zara", "Andi", "Budi", "Cindy" };
-    //     var sort = names.OrderByDescending(x => x).ToList();
-    //     Console.WriteLine(string.Join(", ", sort));
-    // }
+    static void Main() {
+        List<string> names = new List<string> { "Zara", "Andi", "Budi", "Cindy" };
+        var sort = names.OrderByDescending(x => x).ToList();
+        Console.WriteLine(string.Join(", ", sort));
+    }
 }

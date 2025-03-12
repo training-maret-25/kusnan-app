@@ -19,22 +19,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-// class Collection5 {
-//     static void Main() {
-//         int n = 5;
+class Collection5 {
+    static void Main() {
+        int n = 5;
 
-//         Dictionary<string, int> pelanggan = new Dictionary<string, int> {
-//             { "Amanda", 6 },
-//             { "Budi", 4 },
-//             { "Catherine", 9 },
-//             { "Daniel", 6 },
-//             { "Erika", 5 }
-//         };
+        Dictionary<string, int> pelanggan = new Dictionary<string, int> {
+            { "Amanda", 6 },
+            { "Budi", 4 },
+            { "Catherine", 9 },
+            { "Daniel", 6 },
+            { "Erika", 5 }
+        };
 
-//         var hasil = pelanggan
-//             .Where(c => c.Value > n)
-//             .Select(c => c.Key); 
+        var hasil = pelanggan
+            .Where(c => c.Value > n)
+            .Select(c => c.Key); 
 
-//         Console.WriteLine($"Pelanggan dengan nama lebih dari {n} huruf: " + string.Join(", ", hasil));
-//     }
-// }
+        Console.WriteLine($"Pelanggan dengan nama lebih dari {n} huruf: " + string.Join(", ", hasil));
+    }
+}

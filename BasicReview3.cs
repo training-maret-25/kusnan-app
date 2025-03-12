@@ -11,18 +11,18 @@
 
 using System;
 
-// class BasicReview3 {
-//     static void Main() {
-//         bool isValid = CheckSomething();
+class BasicReview3 {
+    static void Main() {
+        bool isValid = CheckSomething();
 
-//         if (isValid) {
-//             Console.WriteLine("Valid!");
-//         } else {
-//             Console.WriteLine("Tidak Valid!");
-//         }
-//     }
+        if (isValid) {
+            Console.WriteLine("Valid!");
+        } else {
+            Console.WriteLine("Tidak Valid!");
+        }
+    }
 
-//     static bool CheckSomething() {
-//         return DateTime.Now.Day % 2 == 0; 
-//     }
-// }
+    static bool CheckSomething() {
+        return DateTime.Now.Day % 2 == 0; 
+    }
+}

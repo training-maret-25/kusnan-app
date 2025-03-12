@@ -27,16 +27,16 @@ class Collection1 {
     public double Price { get; set; }
 }
 
-// class Program {
-//     static void Main() {
-//         Collection1[] daftarProduk = new[] {
-//             new Collection1 { Name = "Tablet", Price = 4000000 },
-//             new Collection1 { Name = "Smartphone", Price = 3000000 },
-//             new Collection1 { Name = "Smartwatch", Price = 1500000 },
-//             new Collection1 { Name = "Laptop", Price = 10000000 }
-//         };
+class Program {
+    static void Main() {
+        Collection1[] daftarProduk = new[] {
+            new Collection1 { Name = "Tablet", Price = 4000000 },
+            new Collection1 { Name = "Smartphone", Price = 3000000 },
+            new Collection1 { Name = "Smartwatch", Price = 1500000 },
+            new Collection1 { Name = "Laptop", Price = 10000000 }
+        };
 
-//         Collection1? termurah = daftarProduk.MinBy(b => b.Price); 
-//         Console.WriteLine($"Produk termurah adalah {termurah?.Name} - Rp. {termurah?.Price:N0}");
-//     }
-// }
+        Collection1? termurah = daftarProduk.MinBy(b => b.Price); 
+        Console.WriteLine($"Produk termurah adalah {termurah?.Name} - Rp. {termurah?.Price:N0}");
+    }
+}

@@ -11,9 +11,9 @@
 using System;
 
 class Basic2 {
-    // static void Main() {
-    //     Console.WriteLine(KataSama("Radar"));
-    // }
+    static void Main() {
+        Console.WriteLine(KataSama("Radar"));
+    }
 
     static bool KataSama(string kata) {
         kata = kata.ToLower();

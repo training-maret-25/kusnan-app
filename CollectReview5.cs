@@ -21,12 +21,12 @@ using System.Collections.Generic;
 using System.Linq;
 
 class CollectReview5 {
-    // static void Main() {
-    //     List<int> numbers = new List<int> { 10, 20, 30, 40, 50 };
-    //     IEnumerable<int> result = numbers.Select(x => x * 2).Where(x => x > 50);
+    static void Main() {
+        List<int> numbers = new List<int> { 10, 20, 30, 40, 50 };
+        IEnumerable<int> result = numbers.Select(x => x * 2).Where(x => x > 50);
         
-    //     foreach (int item in result) {
-    //         Console.WriteLine(item);
-    //     }
-    // }
+        foreach (int item in result) {
+            Console.WriteLine(item);
+        }
+    }
 }

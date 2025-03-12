@@ -16,7 +16,7 @@ class BasicReview1 {
         Console.WriteLine($"Hello, {name}! Welcome to our system.");
     }
 
-    // static void Main() {
-    //     GreetUser("Udin");
-    // }
+    static void Main() {
+        GreetUser("Udin");
+    }
 }

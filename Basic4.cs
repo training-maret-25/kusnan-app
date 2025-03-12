@@ -11,10 +11,10 @@
 using System;
 
 class Basic4 {
-    // static void Main() {
-    //     int[] angka =  { 3, 7, 2, 9, 5 };
-    //     Console.WriteLine(SecondLargest(angka));
-    // }
+    static void Main() {
+        int[] angka =  { 3, 7, 2, 9, 5 };
+        Console.WriteLine(SecondLargest(angka));
+    }
 
     static int SecondLargest(int [] arr) {
         int pertama = int.MinValue, kedua = int.MinValue;
